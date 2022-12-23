@@ -9,10 +9,9 @@
  */
 
 
-const { DtLocalStorage } = require("./dtLocalStorage.ts");
-const { DtRequester } = require('./dtRequester.ts');
-import { MastodonAppResponse }  from '../mastodon/mastodonApi';
-const { URLS } = require('../mastodon/mastodonApi.ts');
+import { DtLocalStorage } from"./dtLocalStorage";
+import { DtRequester } from'./dtRequester';
+import { MastodonAppResponse, URLS }  from '../mastodon/mastodonApi';
 
 export class DtAppAccess {
   public id: string;
